@@ -3,55 +3,67 @@
 <head>
   <meta charset="utf-8">
   <title> ITMD 361 - Michael Galvan Project 1 </title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/x-icon" href="media/favicon.ico">
 </head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">ABOUT</a></li>
-        <li><a href="medialibrary.html"> The Funny Page</a></li>
-        <li><a href="counselingresources.html"> Accessibility Resources </a></li>
+<body id="pagecontainer">
+  <header id="headercontainer">
+    <nav id="navbarcontainer">
+      <ul id="navbar">
+        <li id="nav1"><a href="#">ABOUT</a></li>
+        <li id="nav2"><a href="medialibrary.html"> The Funny Page</a></li>
+        <li id="nav3"><a href="counselingresources.html"> Accessibility Resources </a></li>
       </ul>
     </nav>
-    <img src="media/porcupine.png" alt="A cute animated porcupine named Buddy from the animation Open Season" title="Buddy the Porcupine">
-    <h1>ITMD 361 - Michael Galvan Web Development Project</h1>
-    <p>Welcome! You stuck the landing! Say hi to Buddy :D</p>
+    <img id="banner" src="media/porcupine.png" alt="A cute animated porcupine named Buddy from the animation Open Season" title="Buddy the Porcupine">
+    <h1 id="title">ITMD 361 - Michael Galvan Web Development Project</h1>
+    <p id="subtitle">Welcome! You stuck the landing! Say hi to Buddy :D</p>
   </header>
-  <div>
-    <article>
+  <div id="articlescontainer">
+    <article id="article1container">
       <h2> About this site:</h2>
     </article>
-    <article>
-      <h2>Interesting things about me, Michael:</h2>
-      <h3>My Favorite Music Albums/Soundtracks</h3>
-      <ol>
-        <li title="Yes, the musical">Hamilton
-          <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Hamilton-poster.jpg" alt="Album art for Hamilton, a silouhette of a man standing atop the silouhette of a star with his arm pointed to the air, the star reads in white text 'HAMILTON' ">
+    <article id="article2container">
+      <h2 class="article2headers">Interesting things about me, Michael:</h2>
+      <h3 class="article2headers">My Favorite Music Albums/Soundtracks</h3>
+      <ol id="albumcontainer">
+        <li id="song1" title="Yes, the musical">Hamilton
+          <img id="album1" src="https://upload.wikimedia.org/wikipedia/en/8/83/Hamilton-poster.jpg" alt="Album art for Hamilton, a silouhette of a man standing atop the silouhette of a star with his arm pointed to the air, the star reads in white text 'HAMILTON' ">
         </li>
-        <li title="Watsky is a lyrical GENIUS">xInfinity
-          <img src="https://upload.wikimedia.org/wikipedia/en/d/d1/Watsky_x_Infinity_cover.jpg" alt="AlbumP Art of the person Watsky on a background, the background looks like the Japanese Flag">
+        <li id="song2" title="Watsky is a lyrical GENIUS">xInfinity
+          <img id="album2" src="https://upload.wikimedia.org/wikipedia/en/d/d1/Watsky_x_Infinity_cover.jpg" alt="AlbumP Art of the person Watsky on a background, the background looks like the Japanese Flag">
         </li>
-        <li title="This is where a lot of my values started to take form">American Idiot
-          <img src="https://upload.wikimedia.org/wikipedia/en/e/ed/Green_Day_-_American_Idiot_album_cover.png" alt="Album Art for American Idiot, white hand on black background holding a red grenade that looks like a heart, the words on the blank space read GREEN DAY AMERICAN IDIOT">
+        <li id="song3" title="This is where a lot of my values started to take form">American Idiot
+          <img id="album3" src="https://upload.wikimedia.org/wikipedia/en/e/ed/Green_Day_-_American_Idiot_album_cover.png" alt="Album Art for American Idiot, white hand on black background holding a red grenade that looks like a heart, the words on the blank space read GREEN DAY AMERICAN IDIOT">
         </li>
-        <li title="The music is just too good man">Undertale
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Undertale_Soundtrack_2015.jpg/220px-Undertale_Soundtrack_2015.jpg" alt="Black background under white text which reads UNDERTALE SOUNDTRACK">
+        <li id="song4" title="The music is just too good man">Undertale
+          <img id="album4" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Undertale_Soundtrack_2015.jpg/220px-Undertale_Soundtrack_2015.jpg" alt="Black background under white text which reads UNDERTALE SOUNDTRACK">
         </li>
-        <li title="These Icelanders are incredible">My Head is an Animal
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/My_Head_Is_An_Animal.jpg/220px-My_Head_Is_An_Animal.jpg" alt="Man on a beach with what vaguely looks like a boat coming to shore">
+        <li id="song5" title="These Icelanders are incredible">My Head is an Animal
+          <img id="album5" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/07/My_Head_Is_An_Animal.jpg/220px-My_Head_Is_An_Animal.jpg" alt="Man on a beach with what vaguely looks like a boat coming to shore">
         </li>
       </ol>
-      <h3>My Favorite Video Games</h3>
-      <ol>
-        <li title="Playing custom games with people from around the world">Halo 3</li>
-        <li title="Nostalgia is really what puts this below">Halo Reach</li>
-        <li title="I've liked it since Smash Brawl">Super Smash Bros</li>
-        <li title="TTT cultivates some great community">Gary's Mod</li>
-        <li title="Gears 2 was peak entertainment">Gears of War</li>
+      <h3 class="article2headers">My Favorite Video Games</h3>
+      <ol id="gameartcontainer">
+        <li title="Playing custom games with people from around the world">Halo 3
+          <img id="gameart1" src="image.jpg" alt="Halo 3 Logo">
+        </li>
+        <li title="Nostalgia is really what puts this below">Halo Reach
+          <img id="gameart2" src="image.jpg" alt="Halo Reach Logo">
+        </li>
+        <li title="I've liked it since Smash Brawl">Super Smash Bros
+          <img id="gameart3" src="image.jpg" alt="Smash Ultimate Logo">
+        </li>
+        <li title="TTT cultivates some great community">Gary's Mod
+          <img id="gameart4" src="image.jpg" alt="GMod Logo">
+        </li>
+        <li title="Gears 2 was peak entertainment">Gears of War
+          <img id="gameart5" src="image.jpg" alt="Gears of War Logo">
+        </li>
       </ol>
-      <h3>Three Fun Facts</h3>
-      <ul>
+      <h3 class="article2headers">Three Fun Facts</h3>
+      <ul id="favoritescontainer">
         <li>I'm <strong>very</strong> invested in Musical Theatre
           <p>My all time favorite has been <em>Hamilton</em> since I was 16. Musical Theatre was my teenage blossoming, watered by the fruits of my efforts in Choir and a capella. Before this I was in a sort of loveless relationship with American Football as a hobby, I was good at it, but I ran out of anger. All I had left to give was love and curiousity, so I returned to my childhood love of music when I entered highschool.</p>
         </li>
@@ -64,9 +76,5 @@
       </ul>
     </article>
   </div>
-  <footer>
-    <p>Please let me know what I should add and if there is anything I would be better off removing</p>
-    <h2> Are Iframes appropriate for embedding websites or should I just describe the article in detail and link to it?</h2>
-    <h2>I'd like a section where people can write in ASCII suggestions for articles depending on the page, any advice on how to implement that which I may be forgetting?</h2>
-  </footer>
 </body>
+</html>
