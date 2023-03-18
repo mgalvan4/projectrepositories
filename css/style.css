@@ -1,0 +1,59 @@
+body  {
+ min-width: 960px;
+}
+ul li  {
+ list-style-type: none;
+}
+a  {
+ text-decoration: none;
+ color: #fff;        
+}
+#onpage a  {
+ text-decoration: underline overline ;
+ text-decoration-color: red;      
+}
+#pagecontainer  {
+ 
+}
+#headercontainer  {
+ 
+}
+#navbarcontainer  {
+
+}
+
+#navbar  {
+
+}
+
+#nav1  {
+
+}
+
+#nav2  {
+
+}
+
+#nav3  {
+
+}
+#banner  {
+
+}
+
+#title  {
+
+}
+
+#subtitle  {
+
+}
+/*^Header Section^*/
+
+/*Main content*/
+
+/*index specific css*/
+
+/*medialibrary specific css*/
+
+/*counselingresources specific css*/
