@@ -26,6 +26,7 @@ h2,h3,h4  {
  overflow: hidden;
  background-color: grey;
  border: .20em solid black;
+ height: 46em;
 }
 #navbar  {
  background-color: grey;
@@ -152,8 +153,12 @@ display: block;
  margin:0;
 }
 /*medialibrary specific css*/
+#bannergif  {
+  
+}
 #video1  {
  float: right;
  z-index: 0;
+ width: 20%;
 }
 /*counselingresources specific css*/
