@@ -143,5 +143,7 @@ display: block;
 /*index specific css*/
 
 /*medialibrary specific css*/
-
+#video1  {
+ float: right;
+}
 /*counselingresources specific css*/
