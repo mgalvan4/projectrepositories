@@ -20,9 +20,12 @@ h2,h3,h4  {
  background-color: tan;
  min-width: 960px;
  font-family: 'Oswald', sans-serif;
+ border: .20em solid black;
 }
 #headercontainer  {
  overflow: hidden;
+ background-color: grey;
+ border: .20em solid black;
 }
 #navbar  {
  background-color: grey;
@@ -38,6 +41,7 @@ h2,h3,h4  {
  padding:0;
  margin:0;
  overflow: hidden;
+ border-bottom: .75em solid black;
 }
 #navbar  li  {
  padding-top: .25em;
@@ -51,7 +55,7 @@ h2,h3,h4  {
 }
 }
 #lowerheader  {
- 
+ border: black;
 }
 #banner  {
 display: block;
@@ -67,6 +71,8 @@ display: block;
 }
 #righthalf  {
  float:left;
+ text-align: center;
+ width:75%;
  
 }
 #title  {
@@ -89,10 +95,9 @@ display: block;
 #article1container  {
   
 }
-#article2container  {
-  
+.article1headers  {
+ 
 }
-
 
 /*^Main content^*/
 #albumcontainer  {
