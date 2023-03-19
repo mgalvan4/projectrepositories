@@ -89,6 +89,8 @@ display: block;
  border:0;
  padding:0;
  margin:0;
+ float:unset;
+ width:33%;
 }
 /*^Header Section^*/
 #articlescontainer  {
@@ -143,7 +145,12 @@ display: block;
   
 }
 /*index specific css*/
-
+#about  {
+ width:33%;
+ border:0;
+ padding:0;
+ margin:0;
+}
 /*medialibrary specific css*/
 #video1  {
  float: right;
