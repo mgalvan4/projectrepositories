@@ -73,7 +73,8 @@ display: block;
  float:left;
  text-align: center;
  width:75%;
- 
+ position:sticky;
+ z-index: 1;
 }
 #title  {
 display: block;
@@ -146,5 +147,6 @@ display: block;
 /*medialibrary specific css*/
 #video1  {
  float: right;
+ z-index: 0;
 }
 /*counselingresources specific css*/
