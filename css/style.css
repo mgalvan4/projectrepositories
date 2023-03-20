@@ -233,6 +233,9 @@ padding-left:25em;
 padding-top:2.5em;
 background: black;
 }
+#audiogif  img,audio  {
+padding-left:17.5%;
+}
 #audiogif  img{
  display: block;
  width: 30em;
