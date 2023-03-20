@@ -128,7 +128,12 @@ h3  {
 .article1headers  {
  text-align:center;
 }
+section  {
+  border: 5px solid darkgrey;
+  border-right:0px;
+  border-left:0px;
 
+}
 /*^Main content^*/
 #albumcontainer  {
  border:0;
@@ -236,12 +241,6 @@ h3  {
 #bannertext  p{
  background:black;
 }
-#title2  {
-
-}
-#subtitle2  {
-
-}
 #maincontent  {
  text-align: center;
 }
@@ -305,6 +304,7 @@ h3  {
 #iframe1{
  border:none;
 }
+/*counselingresources specific css*/
 #\33 section1  iframe  {
  display:flex;
  border:none;
@@ -313,4 +313,8 @@ h3  {
  height:50em;
  background: black;
 }
-/*counselingresources specific css*/
+#\33 section2  p a{
+  color:grey;
+  font-size:1em;
+  text-decoration: underline black;
+}
