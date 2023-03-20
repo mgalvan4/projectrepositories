@@ -74,8 +74,9 @@ display: block;
  float:left;
  text-align: center;
  width:75%;
- position:sticky;
+ position:relative;
  z-index: 1;
+ left:10%
 }
 #title  {
 display: block;
@@ -89,23 +90,25 @@ display: block;
 display: block;
  border:0;
  padding:0;
+ padding-left:8%;
  margin:0;
- float:unset;
  width:33%;
+}
+#about h2  {
+ padding-left:50%;
 }
 /*^Header Section^*/
 #articlescontainer  {
   
 }
 #article1container  {
-text-align: center;
+  
 }
 .article1headers  {
  
 }
 
 /*^Main content^*/
-
 #albumcontainer  {
  border:0;
  padding:0;
@@ -117,8 +120,9 @@ text-align: center;
  background: black;
  padding-top:5em;
 }
+
 #album1 {
-  
+
 }
 #album2  {
   
@@ -152,11 +156,7 @@ text-align: center;
   
 }
 #favoritescontainer  {
- border:0;
- padding:0;
- margin:0;
- width:99%;
- text-align: justify;
+  
 }
 /*index specific css*/
 #about  {
@@ -259,6 +259,10 @@ background: black;
 }
 #video4  {
  width:33.33%; 
+}
+#section3  {
+ padding-top:1px;
+ background:silver;
 }
 #iframe1{
  border:none;
