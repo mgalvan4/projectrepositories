@@ -247,6 +247,10 @@ background: black;
 #video4  {
  width:33.33%; 
 }
+#section3  {
+ padding-top:1px;
+ background:silver;
+}
 #iframe1{
  border:none;
 }
