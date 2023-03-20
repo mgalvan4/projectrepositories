@@ -98,17 +98,26 @@ display: block;
   
 }
 #article1container  {
-  
+text-align: center;
 }
 .article1headers  {
  
 }
 
 /*^Main content^*/
+
 #albumcontainer  {
-  
+ border:0;
+ padding:0;
+ margin:0;
+ display:flex;'
+ flex-wrap: wrap;
+ height:15em;
+ overflow: hidden;
+ background: black;
+ padding-top:5em;
 }
-#album1  {
+#album1 {
   
 }
 #album2  {
@@ -143,7 +152,11 @@ display: block;
   
 }
 #favoritescontainer  {
-  
+ border:0;
+ padding:0;
+ margin:0;
+ width:99%;
+ text-align: justify;
 }
 /*index specific css*/
 #about  {
@@ -246,10 +259,6 @@ background: black;
 }
 #video4  {
  width:33.33%; 
-}
-#section3  {
- padding-top:1px;
- background:silver;
 }
 #iframe1{
  border:none;
