@@ -9,8 +9,15 @@ a  {
 h1{
  font-size: 2em;
 }
-h2,h3,h4  {
-  font-size: 1.5em;
+h2  {
+ font-size: 1.8em; 
+}
+h3,h4  {
+ font-size: 1.5em;
+}
+h3  {
+  text-decoration: underline darkgrey;
+  text-align: center;
 }
 #onpage{
  text-decoration: underline overline ;
@@ -94,10 +101,21 @@ display: block;
  margin:0;
  width:33%;
 }
+#about  {
+  display:block;
+  position:relative;
+  top:1em;
+}
 #about h2  {
+  border:0;
+ padding:0;
+ margin:0;
  padding-left:50%;
 }
 #about p  {
+  border:0;
+ padding:0;
+ margin:0;
  width:150%;
 }
 /*^Header Section^*/
