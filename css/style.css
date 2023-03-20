@@ -152,7 +152,7 @@ display: block;
  padding:0;
  margin:0;
 }
-/*medialibrary specific css*/
+/*v medialibrary specific css v*/
 #bannergif  {
  display: block;
  border:0;
@@ -178,16 +178,77 @@ background-color: black;
 #bannertext  {
   position: absolute;
   top: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 15%;
   z-index: 1;
   text-align: center;
-  color: white;
+  color: lightgrey;
+}
+#bannertext  h1{
+ background:black;
+}
+#bannertext  p{
+ background:black;
 }
 #title2  {
- display: block; 
+
 }
 #subtitle2  {
- display: block; 
+
 }
+#maincontent  {
+ text-align: center;
+}
+#section1  {
+ width:100%;
+}
+#section1 p{
+ text-align:center;
+}
+#section1title  {
+ display:block;
+ width:100%;
+ border:0;
+ padding:0;
+ margin:0;
+ text-align:center;
+}
+#audiogif  {
+padding-left:25em;
+padding-top:2.5em;
+background: black;
+}
+#audiogif  img{
+ display: block;
+ width: 30em;
+}
+#audiogif  audio{
+ display: block;
+ width: 30em;
+}
+#section2  {
+ display:block;
+ width:100%;
+
+}
+#section2title  {
+ text-align: center;
+}
+#videoscontainer  {
+  display:flex;
+  background-color: black;
+  border: 1em solid black;
+}
+#video2  {
+ width:33.33%;
+}
+#video3  {
+ width:33.33%;
+}
+#video4  {
+ width:33.33%; 
+}
+#iframe1{
+ border:none;
+}
+
 /*counselingresources specific css*/
