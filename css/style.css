@@ -97,6 +97,9 @@ display: block;
 #about h2  {
  padding-left:50%;
 }
+#about p  {
+ width:150%;
+}
 /*^Header Section^*/
 #articlescontainer  {
   
@@ -105,7 +108,7 @@ display: block;
   
 }
 .article1headers  {
- 
+ text-align:center;
 }
 
 /*^Main content^*/
