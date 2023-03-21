@@ -305,6 +305,17 @@ section  {
  border:none;
 }
 /*counselingresources specific css*/
+#page3bottomheader #subtitle  {
+  display:block;
+  position:relative;
+  left:30%;
+}
+#page3bottomheader  {
+  display:block;
+  position:relative;
+  padding-right:5%;
+  left:5%;
+}
 #\33 section1  iframe  {
  display:flex;
  border:none;
@@ -317,4 +328,8 @@ section  {
   color:grey;
   font-size:1em;
   text-decoration: underline black;
+}
+footer  {
+  text-align: center;
+  color:red;
 }
