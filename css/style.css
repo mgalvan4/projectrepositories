@@ -35,6 +35,10 @@ h3  {
  border: .20em solid black;
  height: 20em;
 }
+#navbarcontainer  {
+ /*Going to compress navbar*/
+ 
+}
 #navbar  {
  background-color: grey;
  width: 100%;
