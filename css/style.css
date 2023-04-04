@@ -33,11 +33,13 @@ h3  {
  overflow: hidden;
  background-color: grey;
  border: .20em solid black;
- height: 20em;
+ height: 24em;
 }
 #navbarcontainer  {
  /*Going to compress navbar*/
- 
+ width:70%;
+ position:relative;
+ left:30%
 }
 #navbar  {
  background-color: grey;
@@ -53,7 +55,8 @@ h3  {
  padding:0;
  margin:0;
  overflow: hidden;
- border-bottom: .75em solid black;
+ border-top: .75em solid black;
+ border-bottom: .5em dashed black;
 }
 #navbar  li  {
  padding-top: .25em;
@@ -77,8 +80,10 @@ h3  {
  width: 15%;
  padding-left:5%;
  padding-right:5%;
- padding-bottom:1%;
+ padding-bottom:4%;
+ padding-top:1%;
  background-color: black;
+
 }
 #righthalf  {
  float:left;
